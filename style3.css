@@ -1,0 +1,104 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 0%;
+}
+
+.rectangle{
+  width: 1100px;
+  height: 790px;
+  background: rgba(0,0,0,0.6);
+  border: 1px solid;
+  position:absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border-radius:20px;
+}
+
+.logo{
+  width:22%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+.section1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+}
+
+h1{
+  color:#00DD01;
+  text-align: center;
+}
+
+.rectangle2{
+  width: 80%;
+  background:#00DD01;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 7px;
+
+}
+
+button{
+ padding: 1px 10px;
+ text-align: center;
+ font-size: 12px;
+ margin: 10px 2px;
+
+}
+
+main{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block{
+  margin-top: 25px;
+  color: white;
+}
+
+.block > .title > span{
+  font-size: 22px;
+}
+
+.block > .location{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.block > .charge-status > .charge-bar{
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 3px
+}
+
+.orange{
+  width: 35%;
+  background-color: #F5B453;
+}
+
+.green{
+  width: 60%;
+  background-color: #1DC31D;
+}
+
+.red{
+  width: 15%;
+  background-color: #BE4141;
+}
